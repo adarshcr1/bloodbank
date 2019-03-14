@@ -1,0 +1,19 @@
+CREATE DATABSE [OBB]
+
+USE [OBB]
+
+CREATE TABLE [dbo].[tbl_DonarDetails]
+(
+	[FirstName] [varchar](20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[LastName] [varchar](20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DOB] [datetime] NULL,
+	[Gender] [varchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[BloodGroup] [varchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Weight] [varchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[LastBloodDonationDate] [datetime] NULL,
+	[DonarType] [varchar](30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[MobileNo] [varchar](11) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Email] [varchar](100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Address] [varchar](500) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[City] [varchar](20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+)
